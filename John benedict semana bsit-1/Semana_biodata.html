@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Bio-Data Form</title>
+    <style>
+        label { display: block; margin-top: 10px; }
+        .section-title { font-weight: bold; margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <h2>INSTITUTE OF TECHNICAL EDUCATION</h2>
+    <h3>STUDENT BIO-DATA FORM FOR FULL-TIME STUDENTS</h3>
+    <p><strong>Instructions:</strong> Please complete the form correctly.</p>
+
+    <div class="section-title">STUDENT'S PARTICULARS</div>
+    <form>
+        <label>Name: <input type="text" name="name" size="50"></label>
+        <label>NRIC/FIN: <input type="text" name="nric" size="15"></label>
+        <label>Intake: 
+            <select name="intake">
+                <option>Jan</option>
+                <option>Apr</option>
+                <option>Jun</option>
+            </select> 200<input type="text" name="year" size="4">
+        </label>
+
+        <div class="section-title">Address</div>
+        <label>Blk/House No: <input type="text" name="block" size="10"></label>
+        <label>Street Name: <input type="text" name="street" size="50"></label>
+        <label>Unit No: <input type="text" name="unit" size="10"></label>
+        <label>Postal: <input type="text" name="postal" size="10"></label>
+
+        <label class="section-title">House Type:</label>
+        <label><input type="checkbox"> HDB 1-room flat</label>
+        <label><input type="checkbox"> HDB 2-room flat</label>
+        <label><input type="checkbox"> HDB 3-room flat</label>
+        <label><input type="checkbox"> HDB 4-room flat</label>
+        <label><input type="checkbox"> HDB 5-room flat</label>
+        <label><input type="checkbox"> HDB exec aptmt & maisonette</label>
+        <label><input type="checkbox"> HUDC flat/terrace</label>
+        <label><input type="checkbox"> HDB shophouse</label>
+        <label><input type="checkbox"> Private flat/apartment</label>
+        <label><input type="checkbox"> Private condominium</label>
+        <label><input type="checkbox"> Private terrace house</label>
+        <label><input type="checkbox"> Private semi-detached house</label>
+        <label><input type="checkbox"> Bungalow</label>
+        <label><input type="checkbox"> Others</label>
+
+        <div class="section-title">Particulars & Declaration</div>
+        <label>Marital Status:
+            <input type="radio" name="marital" value="Single"> Single
+            <input type="radio" name="marital" value="Married"> Married
+            <input type="radio" name="marital" value="Others"> Others
+        </label>
+        <label>Nationality: <input type="text" name="nationality" size="30"></label>
+        <label>Birth Country: <input type="text" name="birth_country" size="30"></label>
+
+        <label>NS Status:</label>
+        <label><input type="checkbox"> Completed</label>
+        <label><input type="checkbox"> Deferred</label>
+        <label><input type="checkbox"> Full-time</label>
+        <label><input type="checkbox"> Exempted</label>
+        <label><input type="checkbox"> Part-time</label>
+        <label><input type="checkbox"> Not Called</label>
+        <label><input type="checkbox"> N/A</label>
+
+        <label class="section-title">Religion:</label>
+        <label><input type="checkbox"> Buddhism</label>
+        <label><input type="checkbox"> Islam</label>
+        <label><input type="checkbox"> Hinduism</label>
+        <label><input type="checkbox"> Roman Catholicism</label>
+        <label><input type="checkbox"> Christianity Others</label>
+        <label><input type="checkbox"> Sikhism</label>
+        <label><input type="checkbox"> Judaism</label>
+        <label><input type="checkbox"> Taoism</label>
+        <label><input type="checkbox"> No Religion</label>
+        <label><input type="checkbox"> Others</label>
+
+        <label class="section-title">Total Family Monthly Income: $
+            <input type="text" name="income" size="10">
+        </label>
+
+        <br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
